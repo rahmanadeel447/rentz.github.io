@@ -1,0 +1,565 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url('img/cars.jpg');
+    background-size: cover;
+    height: 800px;
+  }
+
+  .main-policy{
+    background-image: url('img/regularcar.jpg');
+    background-size: cover;
+    height: 800px;
+  }
+  .main-luxury{
+    background-image: url('img/cars.jpg');
+    background-size: cover;
+    height: 800px;
+  }
+  .main-services{
+    background-image: url('img/mycar-Recovered.jpg');
+    background-size: cover;
+    height: 800px;
+  }
+
+ 
+
+  /* .contact */
+
+  .contact{
+    background-color: transparent;
+    background-image: linear-gradient(110deg, rgba(255, 255, 255, 0) 64%, rgba(37, 57, 147, 0.08) 64%);
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+
+   
+  }
+
+  .contact-child{
+    background-color: transparent;
+    background-image: linear-gradient(110deg, #F9FAFF 32%, rgba(37, 57, 147, 0.08) 32%);
+    height: 100%;
+  }
+
+
+
+  .contact-child1{
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 100px 0px;
+  }
+  .contact-child1 .us{
+    font-size: 60px;
+  }
+  .number{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 20px 0px;
+    display: inline-block;
+
+  }
+  .contact-child1 span{
+    width: 20%;
+    height: 4px;
+    border-radius: 40%;
+    margin: 10px 0px ;
+    display: inline-block;
+    background-color: #11176b;
+  } 
+  .email a{
+    color: black;
+    font-size: 22px;
+    padding: 20px 0px;
+    text-decoration: none;
+   
+  }
+  .book{
+    text-decoration: none;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    background-color: black;
+    transition: 0.5s;
+
+}
+.book:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+/* about */
+
+.main-about{
+
+  background-image: url('img/mycarabout.jpg');
+  background-size: cover;
+ 
+  height: 800px;
+  
+}
+
+.about{
+background-image: url('img/about-bg.jpg');
+  background-size: cover;
+ 
+  background-attachment: fixed;
+
+
+}
+.about-child{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(0, 0,0,0.5);
+  color: rgb(188, 175, 175);
+}
+
+.about-child1{
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+flex-wrap: wrap;
+row-gap: 200px;
+
+
+}
+
+.about-child1-1{
+  width: 50%;
+
+}
+.about-child1-1 p{
+  font-size: 50PX;
+  padding: 0px 0px 30px;
+  color: rgb(188, 175, 175);
+
+}
+.about-child1-1 span{
+  font-size: 18px;
+  line-height: 29px;
+  padding: 20px 0px;
+  display: block;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+}
+.about-child h2 {
+  font-family: 'Poppins', sans-serif;
+  padding: 70px 0px 0px;
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+.about-child> span {
+
+
+  width: 15%;
+  height: 3px;
+  background-color: #ab1723;
+  border-radius: 40%;
+  
+  text-align: center;
+  display: block;
+  margin: 0px auto 50px;
+
+}
+.about-child1-2{
+  width: 50%;
+  height: 450px;
+}
+
+.about-child1-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.about-right{
+  padding-left: 100px;
+}
+.about-right span{
+width: 100%;
+}
+
+
+/* faq */
+
+
+.faq-section {
+  background: #fdfdfd;
+  min-height: 100vh;
+  padding: 10vh 0 0;
+}
+
+.faq-title h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.faq-title h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background: #E91E63;
+  bottom: -25px;
+  margin-left: -30px;
+}
+
+.faq-title p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.faq .card {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+  padding: 0px;
+  border: none;
+  background: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+  background: rgba(233, 30, 99, 0.1);
+  padding-left: 10px;
+}
+
+.faq .card .card-header .faq-title {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #3B566E;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  float: left;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-align: center;
+  background: #E91E63;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.faq .card .card-body {
+  padding: 30px;
+  padding-left: 35px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+  margin-bottom: 14px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+/* .box9 */
+
+
+.box9{
+  background-image: url('img/services.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.color{
+  background-color:rgb(0,0,0,0.8);
+  height: 100%;
+}
+.box9-child{
+  max-width: 1200px;
+  margin: 0px auto;
+  color:white;
+  padding: 60px 0px;
+  text-align: center;
+}
+.box9-child h2{
+  font-size: 72px;
+  font-family: 'roboto',sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 76px;
+}
+.box9-child p{
+  font-size: 32px;
+  font-family: 'roboto',sans-serif;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+.box9-child a{
+  text-decoration: none;
+  font-family: 'roboto',sans-serif;
+  background-color: white;
+  color: black;
+  padding: 15px 15px ;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.box9-child a:hover{
+  background-color: black;
+  color:white;
+}
+.services h2{
+color: white;
+}
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 30px;
+  }
+  .faq-section {
+    background: #fdfdfd;
+    min-height: 100vh;
+    padding: 10vh 33px 0;
+  }
+
+  .faq .card .card-header .faq-title {
+    line-height: 26px;
+    margin-top: 10px;
+  }
+}
+
+  @media(max-width:900px){
+
+    .main{
+        background-image: url('img/cars.jpg');
+    background-size: cover;
+    height: 500px;
+    }
+
+    .main-policy{
+      background-image: url('img/regularcar.jpg');
+      background-size: cover;
+      height: 500px;
+    }
+
+    
+    .main-luxury{
+      background-image: url('img/cars.jpg');
+      background-size: cover;
+      height: 500px;
+    }
+    .main-about{
+
+      background-image: url('img/mycarabout.jpg');
+      background-size: cover;
+     
+      height: 500px;
+      
+    }
+    .main-services{
+      background-image: url('img/mycar-Recovered.jpg');
+      background-size: cover;
+      height: 500px;
+    }
+    .box9-child h2{
+      font-size: 50px;
+      font-family: 'roboto',sans-serif;
+      text-align: center;
+      margin-bottom: 50px;
+      line-height: 76px;
+    }
+    .box9-child p{
+      font-size: 25px;
+      font-family: 'roboto',sans-serif;
+      text-align: center;
+      line-height: 40px;
+      margin-bottom: 50px;
+    }
+
+}
+@media(max-width:700px){
+
+    .main{
+        background-image: url(img/cars.jpg);
+    background-size: cover;
+    height: 400px;
+    }
+    .main-policy{
+      background-image: url('img/regularcar.jpg');
+      background-size: cover;
+      height: 400px;
+    }
+
+    .main-luxury{
+      background-image: url('img/cars.jpg');
+      background-size: cover;
+      height: 400px;
+    }
+    .main-about{
+
+      background-image: url('img/mycarabout.jpg');
+      background-size: cover;
+     
+      height: 400px;
+      
+    }
+
+    .main-services{
+      background-image: url('img/mycar-Recovered.jpg');
+      background-size: cover;
+      height: 400px;
+    }
+    .contact-child1 span{
+      width: 30%;
+      height: 4px;
+      border-radius: 40%;
+      margin: 10px 0px ;
+      display: inline-block;
+      background-color: #11176b;
+    } 
+
+    .about-child1 {
+      max-width: 1200px;
+      margin: 0px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 50px;
+      
+  }
+
+    .about-child1 {
+      max-width: 1200px;
+      margin: 0px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      row-gap: 50px;
+  }
+    .about-child1-1 {
+      width: 68%;
+  }
+    .about-child1-1 span {
+      font-size: 18px;
+      line-height: 29px;
+      padding: 20px 0px;
+      display: block;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;}
+      .about-child1-2 {
+        width: 78%;
+        height: 400px;
+       
+    }
+    .about-right{
+      padding-left: 0px;
+    }
+    .about-right span{
+      font-size: 18px;
+      line-height: 29px;
+      padding: 20px 0px;
+      display: block;
+      width: 100%;
+      font-family: 'Poppins', sans-serif;
+    } 
+    .about-child {
+      width: 100%;
+      padding: 2px 0px;
+      background-color: rgb(0, 0,0,0.5);
+      color: rgb(188, 175, 175);
+  }
+  .box9-child h2{
+    font-size: 25px;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 76px;
+  }
+  .box9-child p{
+    font-size: 13px;
+    font-family: 'roboto',sans-serif;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+}
+@media(max-width:400px){
+    .main{
+        background-image: url('img/cars.jpg');
+    background-size: cover;
+ 
+    }
+    .main-policy{
+      background-image: url('img/regularcar.jpg');
+      background-size: cover;
+      
+    }
+
+    .main-services{
+      background-image: url('img/mycar-Recovered.jpg');
+      background-size: cover;
+      height: 300px;
+    }
+    .about-child1-2 {
+      width: 78%;
+      height: 250px;
+  }
+    .main-about{
+
+      background-image: url('img/mycarabout.jpg');
+      background-size: cover;
+     
+    
+      
+    }
+    .contact-child1 span{
+      width: 60%;
+      height: 4px;
+      border-radius: 40%;
+      margin: 10px 0px ;
+      display: inline-block;
+      background-color: #11176b;
+    } 
+}
