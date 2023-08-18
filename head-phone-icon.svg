@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_66" data-name="Group 66" transform="translate(-6129 -376)">
+    <g id="Group_44" data-name="Group 44" transform="translate(5063 362)">
+      <path id="ic_local_phone_24px" d="M1.989,4.281A8.325,8.325,0,0,0,5.611,7.9L6.82,6.693a.546.546,0,0,1,.561-.132,6.269,6.269,0,0,0,1.962.313.551.551,0,0,1,.55.55V9.342a.551.551,0,0,1-.55.55A9.341,9.341,0,0,1,0,.55.551.551,0,0,1,.55,0H2.473a.551.551,0,0,1,.55.55,6.243,6.243,0,0,0,.313,1.962.551.551,0,0,1-.137.561Z" transform="translate(1072.661 17.322) rotate(19)" fill="#9d885b"/>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(1066 14)" fill="none" stroke="#9a8861" stroke-width="1">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="9.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
